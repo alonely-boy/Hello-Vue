@@ -3,9 +3,8 @@ body{
     margin: 0;
     background-color: whitesmoke;
     /* background-image: url('../img/wood.jpg'); */
-}
-*{
-  user-select: none;
+    user-select: none;
+   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 /* @import "./normalize.css"; */

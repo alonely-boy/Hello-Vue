@@ -46,12 +46,12 @@
       </div>
     </div>
     <div class="aboutPart">
-      <span class="spanTitle">近期flag</span>
+      <span class="spanTitle">更新</span>
       <div class="spanInfo">
-        <div class="infoitem">学好CSS样式</div>
-        <div class="infoitem">学好Vue</div>   
-        <div class="infoitem">学会使用GitHub</div>
-        <div class="infoitem">了解后台</div>
+        <div class="infoitem">添加了全局样式</div>
+        <div class="infoitem">-webkit-tap-highlight-color: rgba(255, 255, 255, 0)</div>   
+        <div class="infoitem">防止移动端点击按钮等会出现蓝色边框</div>
+        <div class="infoitem">再次验证了CSS才是最难的(。。。)</div>
       </div>
     </div>
   </div>

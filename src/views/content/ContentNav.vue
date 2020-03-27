@@ -77,13 +77,13 @@ export default {
           this.span = !this.span;
         },
         // LiName{//防止li元素在移动端文字变成两行排版错位，已废弃，已修改字体大小在移动端也不会换行的程度
-        //   if(this.screenWidth<=900){
-        //     this.$store.commit("mobileSize",{type:'mobile'})
-        //     return item.name[0]//李
-        //   } else{
-        //     this.$store.commit("mobileSize",{type:'pc'})
-        //     return item.name//李白
-        //   }
+          // if(this.screenWidth<=900){
+          //   this.$store.commit("mobileSize",{type:'mobile'})
+          //   return item.name[0]//李
+          // } else{
+          //   this.$store.commit("mobileSize",{type:'pc'})
+          //   return item.name//李白
+          // }
         // },
         tClick(){
             this.tshow = !this.tshow
@@ -123,6 +123,11 @@ export default {
     updated(){
       // console.log(321);
       this.screenWidth = document.body.clientWidth;
+       if(this.screenWidth<=900){
+            this.$store.commit("mobileSize",{type:'mobile'})
+          } else{
+            this.$store.commit("mobileSize",{type:'pc'})
+          }
     }
 }
 </script>
