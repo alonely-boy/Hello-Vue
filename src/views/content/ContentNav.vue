@@ -119,6 +119,12 @@ export default {
     created(){
       // console.log(123);
       this.isActivePath = this.$route.path
+      this.screenWidth = document.body.clientWidth;
+       if(this.screenWidth<=900){
+            this.$store.commit("mobileSize",{type:'mobile'})
+          } else{
+            this.$store.commit("mobileSize",{type:'pc'})
+          }
     },
     updated(){
       // console.log(321);

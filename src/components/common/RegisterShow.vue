@@ -5,7 +5,7 @@
         <div>
           表单还是需要后端验证  
         </div>
-        
+        <h2>后续使用Element-UI学习后台管理系统</h2>
     </div>
 </template>
 
