@@ -5,9 +5,6 @@
         <div id="one">晚来天欲雪</div>
         <div id="two">能饮一杯无</div>
       </div>
-      
-          
-          
             <router-link :to="$store.state.contentGo">
             <div class="aaa">
               <img src="~assets/img/右.png" alt="" width="50" height="50">
